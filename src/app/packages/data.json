@@ -1,0 +1,321 @@
+{
+    "_id": "60a7c3d6e8c6f12345678901" ,
+    "name": "Magical Kashmir: Paradise on Earth",
+    "slug": "magical-kashmir-paradise-on-earth",
+    "destinations": [
+      {
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "country": "India",  
+        "coordinates": {
+          "latitude": 34.0837,
+          "longitude": 74.7973
+        }
+      },
+      {
+        "city": "Gulmarg",
+        "state": "Jammu and Kashmir",
+        "country": "India",
+        "coordinates": {
+          "latitude": 34.0484,
+          "longitude": 74.3805
+        }
+      },
+      {
+        "city": "Pahalgam",
+        "state": "Jammu and Kashmir",
+        "country": "India",
+        "coordinates": {
+          "latitude": 34.0159,
+          "longitude": 75.3145
+        }
+      },
+      {
+        "city": "Sonmarg",
+        "state": "Jammu and Kashmir",
+        "country": "India",
+        "coordinates": {
+          "latitude": 34.3068,
+          "longitude": 75.3206
+        }
+      }
+    ],
+    "duration": {
+      "nights": 6,
+      "days": 7
+    },
+    "description": "Experience the enchanting beauty of Kashmir with our 7-day tour package. Visit the stunning destinations of Srinagar, Gulmarg, Pahalgam, and Sonmarg. Enjoy a stay in traditional houseboats, witness breathtaking landscapes, and create memories to cherish forever.",
+    "richTextDescription": "<h2>Welcome to Paradise on Earth</h2><p>Kashmir's breathtaking beauty has earned it the title of <strong>\"Paradise on Earth\"</strong>, and our carefully curated 7-day tour package gives you the perfect opportunity to experience this heaven.</p><h3>What makes this trip special?</h3><ul><li>Stay in traditional Kashmiri houseboats on the serene Dal Lake</li><li>Experience the thrill of a Shikara ride on the pristine waters</li><li>Visit Asia's largest tulip garden (seasonal)</li><li>Enjoy a gondola ride with panoramic views in Gulmarg</li><li>Witness the stunning landscapes of Pahalgam and Sonmarg</li><li>Shop for authentic Kashmiri handicrafts, saffron, and dry fruits</li></ul><p>Our experienced guides will ensure you discover both popular attractions and hidden gems while enjoying the warm hospitality of the locals.</p><div class=\"highlight-box\"><p><em>Best time to visit: March to October</em></p></div>",
+    "inclusions": [
+      "6 nights accommodation (3 nights in Srinagar houseboat, 1 night in Gulmarg, 1 night in Pahalgam, 1 night in Sonmarg)",
+      "Daily breakfast and dinner",
+      "Airport transfers",
+      "All sightseeing as per itinerary",
+      "Shikara ride on Dal Lake",
+      "Gondola ride in Gulmarg (Phase 1)",
+      "All applicable taxes",
+      "English-speaking tour guide"
+    ],
+    "exclusions": [
+      "Airfare",
+      "Lunch",
+      "Personal expenses",
+      "Travel insurance",
+      "Entry fees to monuments not mentioned in the itinerary",
+      "Activities marked as optional",
+      "Gondola ride Phase 2 in Gulmarg",
+      "Tips for guides and drivers"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Srinagar - Houseboat Check-in",
+        "description": "Upon arrival at Sheikh ul-Alam International Airport, our representative will greet you and transfer you to your houseboat on Dal Lake. Enjoy a traditional Kashmiri welcome with Kahwa tea. In the evening, experience the mesmerizing Shikara ride on Dal Lake and witness the floating vegetable markets and the life of locals living on the lake.",
+        "activities": ["Airport transfer", "Houseboat check-in", "Evening Shikara ride"],
+        "meals": {
+          "breakfast": false,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Deluxe Houseboat, Dal Lake",
+        "images": ["day1_houseboat.jpg", "day1_shikara.jpg", "day1_dallake.jpg"]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Local Sightseeing",
+        "description": "After breakfast, embark on a full-day sightseeing tour of Srinagar. Visit the famous Mughal Gardens including Nishat Bagh (Garden of Pleasure), Shalimar Bagh (Abode of Love), and Chashme Shahi (Royal Spring). Later, visit the ancient Shankaracharya Temple situated on a hill with panoramic views of the city. End your day with a visit to the local handicraft markets.",
+        "activities": ["Mughal Gardens tour", "Shankaracharya Temple visit", "Handicraft market shopping"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Deluxe Houseboat, Dal Lake",
+        "images": ["day2_nishatbagh.jpg", "day2_shankaracharya.jpg", "day2_handicrafts.jpg"]
+      },
+      {
+        "day": 3,
+        "title": "Srinagar to Gulmarg",
+        "description": "After breakfast, check out from the houseboat and drive to Gulmarg (56 km, approximately 2 hours). Known as the 'Meadow of Flowers', Gulmarg is famous for having one of the highest gondola rides in the world. Enjoy the gondola ride up to Kongdori (Phase 1) with breathtaking views of the Himalayas. You can also opt for the second phase of the gondola (optional, at extra cost) that takes you close to the Alpather Glacier.",
+        "activities": ["Scenic drive to Gulmarg", "Gondola ride (Phase 1)", "Optional: Gondola Phase 2"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Hotel Royal Park, Gulmarg",
+        "images": ["day3_gulmarg.jpg", "day3_gondola.jpg", "day3_mountains.jpg"]
+      },
+      {
+        "day": 4,
+        "title": "Gulmarg to Pahalgam",
+        "description": "After breakfast, check out from the hotel and drive to Pahalgam (140 km, approximately 4 hours). En route, visit the saffron fields of Pampore and the ancient Avantipura ruins. Upon arrival in Pahalgam, check into your hotel. The evening is free to explore the local market or walk along the Lidder River.",
+        "activities": ["Visit to saffron fields", "Avantipura ruins", "Leisure time in Pahalgam"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Hotel River View, Pahalgam",
+        "images": ["day4_saffronfields.jpg", "day4_avantipura.jpg", "day4_lidderriver.jpg"]
+      },
+      {
+        "day": 5,
+        "title": "Pahalgam Excursion",
+        "description": "After breakfast, spend the day exploring the beautiful valleys around Pahalgam. Visit Betaab Valley, named after the Bollywood movie shot here, and Chandanwari, the starting point of the Amarnath Yatra. You can also take a pony ride (optional, at extra cost) to visit Baisaran, also known as 'Mini Switzerland'.",
+        "activities": ["Betaab Valley visit", "Chandanwari excursion", "Optional: Pony ride to Baisaran"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Hotel Mountain View, Sonmarg",
+        "images": ["day5_betaabvalley.jpg", "day5_chandanwari.jpg", "day5_baisaran.jpg"]
+      },
+      {
+        "day": 6,
+        "title": "Pahalgam to Sonmarg",
+        "description": "After breakfast, check out from the hotel and drive to Sonmarg (120 km, approximately 3.5 hours). Known as the 'Meadow of Gold', Sonmarg is surrounded by glaciers and serene mountains. Upon arrival, check into your hotel. In the afternoon, visit Thajiwas Glacier (by pony ride, optional at extra cost) and enjoy the pristine beauty of this place.",
+        "activities": ["Scenic drive to Sonmarg", "Optional: Pony ride to Thajiwas Glacier"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": true
+        },
+        "accommodation": "Hotel Mountain View, Sonmarg",
+        "images": ["day6_sonmarg.jpg", "day6_thajiwasglacier.jpg"]
+      },
+      {
+        "day": 7,
+        "title": "Sonmarg to Srinagar - Departure",
+        "description": "After breakfast, check out from the hotel and drive back to Srinagar (80 km, approximately 2.5 hours). Depending on your flight time, you may visit the floating vegetable market early in the morning or do some last-minute shopping. Transfer to the airport for your onward journey with beautiful memories of Kashmir.",
+        "activities": ["Return to Srinagar", "Optional: Floating market visit", "Airport transfer"],
+        "meals": {
+          "breakfast": true,
+          "lunch": false,
+          "dinner": false
+        },
+        "accommodation": "",
+        "images": ["day7_floatingmarket.jpg", "day7_departure.jpg"]
+      }
+    ],
+    "basicPrice": 28999,
+    "currency": "INR",
+    "pricingOptions": [
+      {
+        "title": "Standard Package",
+        "accommodation": "Standard houseboats and 3-star hotels",
+        "price": 28999,
+        "maxGuests": 2
+      },
+      {
+        "title": "Deluxe Package",
+        "accommodation": "Premium houseboats and 4-star hotels",
+        "price": 35999,
+        "maxGuests": 2
+      },
+      {
+        "title": "Luxury Package",
+        "accommodation": "Super Deluxe houseboats and 5-star hotels",
+        "price": 45999,
+        "maxGuests": 2
+      },
+      {
+        "title": "Family Package",
+        "accommodation": "Family rooms in hotels and connected houseboat rooms",
+        "price": 56999,
+        "maxGuests": 4
+      }
+    ],
+    "departureDate": [
+      "2025-05-15T00:00:00.000Z",
+      "2025-05-22T00:00:00.000Z",
+      "2025-06-05T00:00:00.000Z",
+      "2025-06-19T00:00:00.000Z",
+      "2025-07-03T00:00:00.000Z",
+      "2025-07-17T00:00:00.000Z",
+      "2025-08-07T00:00:00.000Z",
+      "2025-08-21T00:00:00.000Z",
+      "2025-09-04T00:00:00.000Z",
+      "2025-09-18T00:00:00.000Z"
+    ],
+    "mainImage": "/kashmirpackage.jpg",
+    "galleryImages": [
+      "kashmir_gallery_1.jpg",
+      "kashmir_gallery_2.jpg",
+      "kashmir_gallery_3.jpg",
+      "kashmir_gallery_4.jpg",
+      "kashmir_gallery_5.jpg",
+      "kashmir_gallery_6.jpg",
+      "kashmir_gallery_7.jpg",
+      "kashmir_gallery_8.jpg"
+    ],
+    "highlights": [
+      "Stay in authentic Kashmiri houseboats on Dal Lake",
+      "Experience the highest gondola ride in Gulmarg",
+      "Visit the stunning Betaab Valley and Thajiwas Glacier",
+      "Explore the historical Mughal Gardens",
+      "Shop for authentic Kashmiri handicrafts and saffron"
+    ],
+    "category": "family",
+    "difficulty": "easy",
+    "tags": ["Kashmir", "Houseboat", "Mountains", "Scenic", "Family", "Cultural", "Nature", "Adventure"],
+    "maxCapacity": 30,
+    "status": "active",
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "userId": "60a7c3d6e8c6f12345678901" ,
+        "rating": 5,
+        "title": "Once in a lifetime experience!",
+        "comment": "This trip exceeded all our expectations. The houseboat stay was magical, and the landscapes were breathtaking. Our guide Farooq was knowledgeable and made us feel welcome. The itinerary was perfectly balanced with activities and rest time.",
+        "images": ["review1_image1.jpg", "review1_image2.jpg"],
+        "date": "2024-09-12T00:00:00.000Z",
+        "reply": {
+          "text": "Thank you for your wonderful feedback! We're delighted that you enjoyed your Kashmir experience. We look forward to hosting you again in the future.",
+          "date": "2024-09-13T00:00:00.000Z"
+        },
+        "status": "approved"
+      },
+      {
+        "userId": "60a7c3d6e8c6f12345678901" ,
+        "rating": 4,
+        "title": "Beautiful trip with minor hiccups",
+        "comment": "The natural beauty of Kashmir is unmatched! The houseboats were comfortable and the staff was very hospitable. The only issue we faced was the long drive to Sonmarg due to traffic. Otherwise, everything was well-organized.",
+        "images": ["review2_image1.jpg"],
+        "date": "2024-08-25T00:00:00.000Z",
+        "reply": {
+          "text": "Thank you for your feedback. We appreciate your understanding about the traffic situation, which can sometimes be unpredictable. We're glad you enjoyed the rest of your trip and hope to see you again.",
+          "date": "2024-08-26T00:00:00.000Z"
+        },
+        "status": "approved"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best time to visit Kashmir?",
+        "answer": "The best time to visit Kashmir is from March to October. Spring (March-May) offers blooming flowers and pleasant weather. Summer (June-August) is ideal for outdoor activities. Autumn (September-October) presents stunning fall colors."
+      },
+      {
+        "question": "Is Kashmir safe for tourists?",
+        "answer": "Yes, the tourist areas in Kashmir are safe for visitors. The tourism industry is well-established, and the locals are known for their hospitality. However, as with any travel, it's advisable to stay updated with the current situation and follow local guidelines."
+      },
+      {
+        "question": "What type of clothes should I pack?",
+        "answer": "Kashmir's weather varies by season. For summer (June-August), light woolens and full-sleeve clothes are recommended. For spring and autumn, a mix of light and heavy woolens is ideal. Don't forget to pack comfortable walking shoes, sunscreen, and a hat."
+      },
+      {
+        "question": "Are ATM facilities available?",
+        "answer": "Yes, ATMs are available in major towns like Srinagar, Gulmarg, and Pahalgam. However, it's advisable to carry some cash, especially when visiting remote areas."
+      },
+      {
+        "question": "Is there an age restriction for the gondola ride in Gulmarg?",
+        "answer": "There is no specific age restriction, but children below 3 years are generally not recommended to take the Phase 2 gondola ride due to the high altitude. Phase 1 is suitable for all age groups."
+      }
+    ],
+    "createdBy": "60a7c3d6e8c6f12345678901" ,
+    "updatedBy": "60a7c3d6e8c6f12345678901" ,
+    "createdAt": "2024-10-01T00:00:00.000Z",
+    "updatedAt": "2024-10-10T00:00:00.000Z",
+    "termsAndConditions": "Booking confirmation is subject to availability. 50% advance payment is required to confirm the booking. Cancellation charges apply as per policy. The company reserves the right to change the itinerary due to unforeseen circumstances. Travel insurance is recommended for all travelers.",
+    "cancellationPolicy": "- More than 30 days before departure: 10% of total tour cost\n- 15-30 days before departure: 25% of total tour cost\n- 7-14 days before departure: 50% of total tour cost\n- Less than 7 days before departure: 100% of total tour cost",
+    "visaRequirements": "Indian nationals do not require any special permits to visit Kashmir. Foreign nationals need a valid Indian visa. Some areas might require special permits which will be arranged by our team if included in the itinerary.",
+    "discounts": [
+      {
+        "type": "early-bird",
+        "amount": 10,
+        "isPercentage": true,
+        "validFrom": "2024-10-01T00:00:00.000Z",
+        "validUntil": "2024-12-31T00:00:00.000Z",
+        "code": "KASHMIR-EARLY10"
+      },
+      {
+        "type": "group",
+        "amount": 15,
+        "isPercentage": true,
+        "validFrom": "2024-10-01T00:00:00.000Z",
+        "validUntil": "2025-10-31T00:00:00.000Z",
+        "code": "KASHMIR-GROUP15"
+      }
+    ],
+    "additionalServices": [
+      {
+        "name": "Professional Photography Service",
+        "description": "A professional photographer will accompany you throughout the trip to capture your special moments.",
+        "price": 7999,
+        "isOptional": true
+      },
+      {
+        "name": "Kashmiri Cooking Class",
+        "description": "Learn to prepare traditional Kashmiri dishes like Rogan Josh, Dum Aloo, and Kahwa tea from local experts.",
+        "price": 1999,
+        "isOptional": true
+      },
+      {
+        "name": "Luxury Car Transfer",
+        "description": "Upgrade to a luxury vehicle (Toyota Innova Crysta or similar) for all transfers and sightseeing.",
+        "price": 8999,
+        "isOptional": true
+      }
+    ]
+  }
