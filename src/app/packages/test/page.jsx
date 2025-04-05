@@ -3,7 +3,7 @@ import { useState , useEffect } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
-
+import kashmirrImage from './kashmirrr.jpeg';
 import { Tab } from "@headlessui/react";
 import {
   CalendarDays,
@@ -36,7 +36,7 @@ const packageData = {
   richTextDescription:
     "<h2>Welcome to Paradise on Earth</h2><p>Kashmir's breathtaking beauty has earned it the title of <strong>\"Paradise on Earth\"</strong>, and our carefully curated 7-day tour package gives you the perfect opportunity to experience this heaven.</p><h3>What makes this trip special?</h3><ul><li>Stay in traditional Kashmiri houseboats on the serene Dal Lake</li><li>Experience the thrill of a Shikara ride on the pristine waters</li><li>Visit Asia's largest tulip garden (seasonal)</li></ul>",
   inclusions: [
-    "6 nights accommodation (3 nights in Srinagar houseboat, 1 night in Gulmarg, 1 night in Pahalgam, 1 night in Sonmarg)",
+    "6 nights accommodation ",
     "Daily breakfast and dinner",
     "Airport transfers",
     "All sightseeing as per itinerary",
@@ -66,7 +66,29 @@ const packageData = {
         "Visit Mughal Gardens including Nishat Bagh and Shalimar Bagh. Explore Shankaracharya Temple.",
       activities: ["Mughal Gardens tour", "Temple visit"],
     },
-  ],
+    {
+      day: 3,
+      title: "Excursion to Gulmarg",
+      description:
+        "Drive to Gulmarg, known for its scenic meadows and cable car rides. Enjoy the Gondola ride up to Apharwat Peak. Optional activities include pony rides and skiing (seasonal). Return to Srinagar in the evening.",
+      activities: ["Gondola ride", "Pony ride", "Sightseeing"],
+    },
+    {
+      day: 4,
+      title: "Day Trip to Pahalgam",
+      description:
+        "Drive to Pahalgam, the Valley of Shepherds. En route visit saffron fields and the ruins of Avantipur. Explore the Lidder River, enjoy optional rafting or pony rides. Return to Srinagar by evening.",
+      activities: ["Sightseeing", "Avantipur ruins", "Lidder River visit"],
+    },
+    {
+      day: 5,
+      title: "Departure from Srinagar",
+      description:
+        "After breakfast, check out from your hotel or houseboat. Transfer to Srinagar airport for your return journey with beautiful memories of Kashmir.",
+      activities: ["Check-out", "Airport transfer"],
+    },
+  ]
+   ,
   basicPrice: 28999,
   currency: "INR",
   pricingOptions: [
@@ -76,8 +98,8 @@ const packageData = {
   departureDate: ["2025-05-15T00:00:00.000Z", "2025-06-05T00:00:00.000Z"],
   mainImage: "/kashmirpackage.jpg",
   galleryImages: [
-    "/kashmir_gallery_1.jpg",
-    "/kashmir_gallery_2.jpg",
+    kashmirrImage ,
+    "kashmirpackage.jpg",
     "/kashmir_gallery_3.jpg",
   ],
   highlights: [
@@ -193,7 +215,7 @@ export default function PackageDetailPage() {
           objectFit="cover"
           className="brightness-90 transition-all duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 sm:p-6 lg:p-12">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 sm:p-6 lg:p-12 lg:pb-10 pb-10 ">
           <div className="flex items-center space-x-2 mb-2 animate-fade-in">
             <MapPin size={18} className="text-[#F14479]" />
             <span className="text-white text-sm">
@@ -293,21 +315,21 @@ export default function PackageDetailPage() {
           {/* Left Column - Package Details */}
           <div className="w-full lg:w-2/3">
             <Tab.Group>
-              <Tab.List className="flex space-x-1 rounded-xl bg-gray-100 dark:bg-gray-800 p-1 mb-6">
-                {["Overview", "Itinerary", "Gallery", "Reviews", "FAQs"].map(
-                  (tab) => (
-                    <Tab
-                      key={tab}
-                      className={({ selected }) =>
-                        `w-full py-2 text-sm font-medium rounded-lg focus:outline-none focus:ring-2 ring-offset-2 ring-offset-[#F14479] ring-white ring-opacity-60 transition-all duration-300 ${
-                          selected
-                            ? "bg-white dark:bg-gray-900 text-[#F14479] shadow"
-                            : "text-gray-700 dark:text-gray-300 hover:bg-white/[0.12] hover:text-[#F14479]"
-                        }`
-                      }
-                    >
-                      {tab}
-                    </Tab>
+            <Tab.List className="flex overflow-x-auto hide-scrollbar md:overflow-visible rounded-xl bg-gray-100 dark:bg-gray-800 p-1.5 mb-6">
+  {["Overview", "Itinerary", "Gallery", "Reviews", "FAQs"].map(
+    (tab) => (
+      <Tab
+        key={tab}
+        className={({ selected }) =>
+          `w-full whitespace-nowrap py-2 px-2 md:px-4 text-base font-medium rounded-lg focus:outline-none focus:ring-2 ring-offset-2 ring-offset-[#F14479] ring-white ring-opacity-60 transition-all duration-300 ${
+            selected
+              ? "bg-white dark:bg-gray-900 text-[#F14479] shadow"
+              : "text-gray-700 dark:text-gray-300 hover:bg-white/[0.12] hover:text-[#F14479]"
+          }`
+        }
+      >
+        {tab}
+      </Tab>
                   )
                 )}
               </Tab.List>
@@ -450,20 +472,19 @@ export default function PackageDetailPage() {
                     Photo Gallery
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {packageData.galleryImages.map((image, index) => (
-                      <div
-                        key={index}
-                        className="relative aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-md"
-                      >
-                        <Image
-                          src={image}
-                          alt={`Gallery image ${index + 1}`}
-                          layout="fill"
-                          objectFit="cover"
-                        />
-                      </div>
-                    ))}
-                  </div>
+  {packageData.galleryImages.map((image, index) => (
+    <div
+      key={index}
+      className="relative aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-md"
+    >
+      <img
+        src={image}
+        alt={`Gallery image ${index + 1}`}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+  ))}
+</div>
                 </Tab.Panel>
 
                 {/* Reviews Tab */}
